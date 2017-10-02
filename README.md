@@ -1,5 +1,7 @@
 # Python for Scientific Computing
 
+**Note: There are a few broken links in here, but I promise they're cool and I'll add them later.**
+
 ## Introduction
 - [History](history.ipynb)
 - [Python Syntax](syntax.ipynb)
