@@ -24,3 +24,24 @@ git clone https://github.com/Jupyter-Kale/Jupyter-and-its-moons.git
 cd Jupyter-and-its-moons
 jupyter notebook
 ```
+
+Docker:
+```
+git clone https://github.com/Jupyter-Kale/Jupyter-and-its-moons.git
+
+cd Jupyter-and-its-moons
+
+docker run -p 8888:8888 -v`pwd`:/opt/Jupyter-and-its-moons -i -t continuumio/anaconda3 jupyter notebook --notebook-dir=/opt/Jupyter-and-its-moons --ip='*' --allow-root
+```
+
+This should start jupyter and you will see something that looks like this:
+```
+    Copy/paste this URL into your browser when you connect for the first time,
+    to login with a token:
+        http://localhost:8888/?token=c23aafa8269872fb603b5ea6c62363f315139133850678e3
+```
+
+Go to the above URL
+
+Welcome to Jupyter!
+
