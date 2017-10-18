@@ -13,3 +13,14 @@ https://docs.anaconda.com/anaconda/install/
 
 Optionally you can also do this tutorial via docker. If you go this route, we'll assume you already have [[Docker][https://www.docker.com/get-docker]] installed and are familiar with basic Docker concepts since this is not meant to be a Docker tutorial.
 
+
+## Running
+
+Anaconda:
+```
+source /path/to/anaconda3/bin/activate
+git clone https://github.com/Jupyter-Kale/Jupyter-and-its-moons.git
+
+cd Jupyter-and-its-moons
+jupyter notebook
+```
