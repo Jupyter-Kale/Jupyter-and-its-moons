@@ -1,19 +1,15 @@
-# Python for Scientific Computing
+# Jupyter And It's Moons - An Introduction to Jupyter and its Ecosystem
 
-**Note: There are a few broken links in here, but I promise they're cool and I'll add them later.**
+## Presented by: Shreyas Cholia, Matt Henderson, Oliver Evans
+## Gateways 2017, Ann Arbor MI
 
-## Introduction
-- [History](history.ipynb)
-- [Python Syntax](syntax.ipynb)
-- [Some Useful Packages](packages.ipynb)
 
-## Special Topics
-- [Interactive Widgets](widgets.ipynb)
-- [Parallelism](parallel.ipynb)
-- [Other Kernels](kernels.ipynb)
-- [JupyterLab / JupyterHub / NBGrader](labhubgrader.ipynb)
+## Installation 
 
-## Live Demos
-- [Mechanics Homework](hw4.ipynb)
-- [Kelp Research](/notebooks/academic/research/kelp/python/kelp3d.ipynb)
-- [Droplet Research](http://localhost:8889/notebooks/lammps/sapphire/analysis/python/comparison.ipynb)
+We will use the anaconda stack to simplify the installation process. You will need to download Anaconda (Python 3) https://www.anaconda.com/download/ to get started. 
+
+Install instructions for your platform can be found here:
+https://docs.anaconda.com/anaconda/install/
+
+Optionally you can also do this tutorial via docker. If you go this route, we'll assume you already have [[Docker][https://www.docker.com/get-docker]] installed and are familiar with basic Docker concepts since this is not meant to be a Docker tutorial.
+
