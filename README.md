@@ -11,10 +11,12 @@ We will use the anaconda stack to simplify the installation process. You will ne
 Install instructions for your platform can be found here:
 https://docs.anaconda.com/anaconda/install/
 
+Windows users should install anaconda using the default options in the installer.
+
 Optionally you can also do this tutorial via docker. If you go this route, we'll assume you already have [[Docker][https://www.docker.com/get-docker]] installed and are familiar with basic Docker concepts since this is not meant to be a Docker tutorial.
 
 
-## Running
+## Running (Linux/OS X)
 
 Anaconda:
 ```
@@ -44,4 +46,22 @@ This should start jupyter and you will see something that looks like this:
 Go to the above URL
 
 Welcome to Jupyter!
+
+## Running (Windows)
+
+Download git for windows:
+https://git-scm.com/download/win
+
+Run the installer that was downloaded:
+Git-2.14.2.3-64-bit.exe
+
+On the last screen, select "Launch Git Bash", then click "Finish".
+
+Inside the terminal:
+```
+git clone https://github.com/Jupyter-Kale/Jupyter-and-its-moons.git
+```
+
+Launch Jupyter Notebook from your start menu or apps.  This will open the interface in your default browser in your user home.
+You can navigate to where you checked out the "Jupyter-and-its-moons" repository above and follow along.
 
