@@ -33,7 +33,7 @@ git clone https://github.com/Jupyter-Kale/Jupyter-and-its-moons.git
 
 cd Jupyter-and-its-moons
 
-docker run -p 8888:8888 -v`pwd`:/opt/Jupyter-and-its-moons -i -t continuumio/anaconda3 jupyter notebook --notebook-dir=/opt/Jupyter-and-its-moons --ip='*' --allow-root
+docker run -p 127.0.0.1:8000:8000 -p 127.0.0.1:8888:8888 -v`pwd`:/opt/Jupyter-and-its-moons -i -t continuumio/anaconda3 jupyter notebook --notebook-dir=/opt/Jupyter-and-its-moons --ip='*' --allow-root
 ```
 
 This should start jupyter and you will see something that looks like this:
@@ -46,6 +46,13 @@ This should start jupyter and you will see something that looks like this:
 Go to the above URL
 
 Welcome to Jupyter!
+
+## Widgets
+For the Widgets section you'll need to install the following
+
+```
+conda install -c conda-forge bqplot ipyvolume ipyleaflet
+```
 
 ## Running (Windows)
 
