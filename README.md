@@ -47,6 +47,11 @@ Go to the above URL
 
 Welcome to Jupyter!
 
+## Widgets
+```
+conda install -c conda-forge bqplot ipyvolume ipyleaflet
+```
+
 ## Running (Windows)
 
 Download git for windows:
