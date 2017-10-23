@@ -48,6 +48,8 @@ Go to the above URL
 Welcome to Jupyter!
 
 ## Widgets
+For the Widgets section you'll need to install the following
+
 ```
 conda install -c conda-forge bqplot ipyvolume ipyleaflet
 ```
